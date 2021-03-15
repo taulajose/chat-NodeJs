@@ -1,0 +1,38 @@
+body {
+  background: #4b79a1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #283e51,
+    #4b79a1
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #283e51,
+    #4b79a1
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#contentWrap {
+  display: none;
+}
+
+#chat {
+  max-height: 50vh;
+  overflow: scroll;
+}
+.error {
+  color: red;
+}
+
+.whisper {
+  color: gray;
+  font-style: italic;
+}
+
+.chat-privado {
+  margin-left: 4px;
+}
+
+.chat-mensajes-privados {
+  height: 80%;
+  overflow: scroll;
+}
